@@ -5,6 +5,7 @@
 #### 2. How many symbols would you like ?
 #### 3. How many numbers would you like ?
 
-### The Program will generate a random password by the help of random module and using a combination of letters, symbols and numbers.
+### The Program will suggest a moderate level as well as a hard level password by the help of random module and using a combination of letters, symbols and numbers.
 
 ## OUTPUT:
+![image](https://github.com/sumnandi/Password_Creation/blob/master/Password%20Generator%20Output.png)
