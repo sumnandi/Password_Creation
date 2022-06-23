@@ -24,7 +24,8 @@ for i in range(0,int(nr_symbols)):
 
 for i in range(0,int(nr_numbers)):
   password+=numbers[random.randint(0,len(numbers)-1)]
-print(password)
+
+print(f"Moderate Level Password Suggestion: {password}")
 #Hard Level - Order of characters randomised:
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
 
@@ -36,5 +37,4 @@ hard_password=""
 
 for i in password:
   hard_password+=password[random.randint(0,len(password)-1)]
-
-print(hard_password)
+print(f"Hard Level Password Suggestion: {hard_password}")
